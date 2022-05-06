@@ -19,7 +19,7 @@ class ThemeController extends GetxController {
     ThemeData.light();
     mainColor.value = Colors.white;
     iconColor.value = Colors.black;
-    isDarkMode.value = false;
+    isDarkMode.value = false; 
   }
 
   void changeIntoDarkMode() {
